@@ -57,14 +57,14 @@ This is a simple authentication app built using **React** and **React Router DOM
 6. **Add the following content to your tailwind.config.js file**
    ```bash
    module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-  }
+   content: [
+   "./src/**/*.{js,jsx,ts,tsx}",
+   ],
+   theme: {
+   extend: {},
+   },
+   plugins: [],
+   }
 
 8. **In src/styles.css, add the following Tailwind directives:**
    ```bash
