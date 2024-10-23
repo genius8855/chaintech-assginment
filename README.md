@@ -50,10 +50,12 @@ This is a simple authentication app built using **React** and **React Router DOM
    npm install
 
 4. **Set up tailwind css**
+   ```bash
    npm install -D tailwindcss postcss autoprefixer
    npx tailwindcss init
 
-5. **Add the following content to your tailwind.config.js file**
+6. **Add the following content to your tailwind.config.js file**
+   ```bash
    module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -64,13 +66,15 @@ This is a simple authentication app built using **React** and **React Router DOM
   plugins: [],
   }
 
-6. **In src/styles.css, add the following Tailwind directives:**
+8. **In src/styles.css, add the following Tailwind directives:**
+   ```bash
    @tailwind base;
    @tailwind components;
    @tailwind utilities;
 
-7. **Start the development server**
+10. **Start the development server**
+    ```bash
    npm start
 
-8. **The app will be running at http://localhost:3000/.**
+12. **The app will be running at http://localhost:3000/.**
 
