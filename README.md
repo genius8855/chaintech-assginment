@@ -74,7 +74,7 @@ This is a simple authentication app built using **React** and **React Router DOM
 
 10. **Start the development server**
     ```bash
-   npm start
+    npm start
 
 12. **The app will be running at http://localhost:3000/.**
 
