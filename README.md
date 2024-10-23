@@ -46,13 +46,14 @@ This is a simple authentication app built using **React** and **React Router DOM
    cd chaintech-assginment
 
 2. **Install Dependencies**
+   ```bash
    npm install
 
-3. **Set up tailwind css**
+4. **Set up tailwind css**
    npm install -D tailwindcss postcss autoprefixer
    npx tailwindcss init
 
-4. **Add the following content to your tailwind.config.js file**
+5. **Add the following content to your tailwind.config.js file**
    module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -63,13 +64,13 @@ This is a simple authentication app built using **React** and **React Router DOM
   plugins: [],
   }
 
-5. **In src/styles.css, add the following Tailwind directives:**
+6. **In src/styles.css, add the following Tailwind directives:**
    @tailwind base;
    @tailwind components;
    @tailwind utilities;
 
-6. **Start the development server**
+7. **Start the development server**
    npm start
 
-7. **The app will be running at http://localhost:3000/.**
+8. **The app will be running at http://localhost:3000/.**
 
